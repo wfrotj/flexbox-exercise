@@ -1,81 +1,77 @@
 * {
-     margin: o;
-     padding: o;
-     box-sizing: border-box;
+  margin: o;
+  padding: o;
+  box-sizing: border-box;
 }
 
 .menu-container {
-     color:white;
-     background-color: grey;
-     padding: 20px 0;
+  color: white;
+  background-color: grey;
+  padding: 20px 0;
 
-     display: flex ;
-     justify-content: center;
-     
+  display: flex;
+  justify-content: center;
 }
 
 .menu {
-   
-     width: 500px;
-     
-     display: flex;
-     justify-content: space-between;
+  width: 500px;
+
+  display: flex;
+  justify-content: space-between;
 }
 .links {
-     display: flex;
-     justify-content: flex-end;
-     gap: 10px;
-    
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
 }
 
 .hero-container {
-     color: blue;
-     background-color: azure;
-     display: flex;
-     justify-content: center;
+  color: blue;
+  background-color: azure;
+  display: flex;
+  justify-content: center;
 }
 
 .hero {
-     width: 900px;
-     height: 300px;
-     display: flex;
-     justify-content: center;
-     align-items: stretch;
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /*End of Hero*/
 
 /*start of photo Grid*/
 
 .photo-grid-container {
-     display: flex;
-     justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .photo-grid {
-     width: 900px;
-     display: flex;
-     justify-content: center;
-     flex-wrap: wrap;
-     
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .photo-grid-item {
-     border: 1px solid white;
-     width: 300px;
-     height: 300px;
+  border: 1px solid white;
+  width: 300px;
+  height: 300px;
 }
 
-.first-item{
-     order:10 ;
+.first-item {
+  order: 10;
 }
-.fourth-item{
-     order: 0;
+.fourth-item {
+  order: 0;
 }
 .last-item {
-     order: -5;
+  order: -5;
 }
 
 .social {
-     align-items: center;
+  align-items: center;
 }
 
 /*This is the end of hero*/
@@ -83,24 +79,120 @@
 /*this is the start of footer*/
 
 .footer-container {
-     display: flex;
-     justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .footer {
-     display: flex;
-     justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .footer-item {
-     border: 1px solid white;
-     background-color: antiquewhite;
-     height: 300px;
-     flex: 1;
+  border: 1px solid white;
+  background-color: antiquewhite;
+  height: 300px;
+  flex: 1;
 }
 
 .footer-one,
-.footer-three{
-     background-color: rgb(113, 113, 198);
-     flex: initial;
-     width: 300px;
+.footer-three {
+  background-color: rgb(113, 113, 198);
+  flex: initial;
+  width: 300px;
+}
+.menu-container {
+  color: white;
+  background-color: grey;
+  padding: 20px 0;
+
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  width: 500px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.hero-container {
+  color: blue;
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+}
+
+.hero {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*End of Hero*/
+
+/*start of photo Grid*/
+
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-grid {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.photo-grid-item {
+  border: 1px solid white;
+  width: 300px;
+  height: 300px;
+}
+
+.first-item {
+  order: 10;
+}
+.fourth-item {
+  order: 0;
+}
+.last-item {
+  order: -5;
+}
+
+.social {
+  align-items: center;
+}
+
+/*This is the end of hero*/
+
+/*this is the start of footer*/
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-item {
+  border: 1px solid white;
+  background-color: antiquewhite;
+  height: 300px;
+  flex: 1;
+}
+
+.footer-one,
+.footer-three {
+  background-color: rgb(113, 113, 198);
+  flex: initial;
+  width: 300px;
 }

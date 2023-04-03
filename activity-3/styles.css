@@ -1,0 +1,38 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.main-container {
+     color: purple;
+     padding: 8px;
+     width: 900;
+     background-color: aliceblue;
+  
+}
+
+.hero-container {
+     display: flex;
+     gap: 16px;
+}
+.notif {
+     background-color: purple;
+     color: white;  
+     margin-left: auto;
+     padding: 0 5px;
+     font-size: 12px;
+     display: flex;
+     align-items: center;
+    
+}
+.logo {
+     font-size: 20px;
+     font-style: italic;
+     font-weight: bolder;
+}
+.link{
+     font-size: 12px;
+     display: flex;
+     align-items: center;
+}
+

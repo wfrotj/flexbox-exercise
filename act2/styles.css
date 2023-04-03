@@ -1,0 +1,55 @@
+*{
+     margin:0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.main {
+     background-color: bisque;
+     display: flex;
+     justify-content: space-between;
+     color: blue;
+     border: 5px solid white;
+     width: auto;
+     height: 50px;
+     
+ 
+}
+
+h1{
+     color: red;
+     font-size: 20px;
+     justify-content: center;
+     align-items: center;
+     padding: 5px;
+}
+.lego {
+     padding: 2px 15px;
+     display: flex;
+     justify-content: center;
+     
+}
+.number,
+.lego
+{
+     background-color: white;
+}
+
+.nav {
+     display: flex;
+     justify-content:center;
+    
+     align-items: center;
+     gap: 8px;
+     padding: 5px;
+     
+}
+
+.nav2 {
+     display: flex;
+     justify-content:center;
+     display: flex;
+     align-items: center;
+     gap: 8px;
+     padding: 5px;
+}

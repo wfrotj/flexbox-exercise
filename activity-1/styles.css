@@ -1,0 +1,28 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.main-container {
+   background-color: rgb(67, 67, 195);
+   display: flex;
+   justify-content: center;
+   border: 5px solid black;
+   width: 900px;
+   height: 500px;
+}
+.center-holder {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.center {
+     font-weight: bold;
+     background-color: rgb(183, 50, 50);
+     border: 5px solid red;
+     height: 100px;
+     width: 100px;
+     display: flex;
+     text-align: center;
+   
+}
